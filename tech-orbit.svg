@@ -1,4 +1,5 @@
 <svg width="340" height="340" viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#00c6ff" stop-opacity="0.55"/>
@@ -7,37 +8,35 @@
     </radialGradient>
   </defs>
 
-  <!-- glowing core -->
+  <!-- Center glow -->
   <circle cx="170" cy="170" r="70" fill="url(#glow)">
     <animate
       attributeName="r"
       values="65;78;65"
       dur="4s"
-      repeatCount="indefinite"
-    />
+      repeatCount="indefinite"/>
   </circle>
 
-  <!-- faint orbit path -->
+  <!-- Orbit -->
   <circle
     cx="170"
     cy="170"
     r="130"
     fill="none"
     stroke="#8A2BE2"
-    stroke-opacity="0.25"
-    stroke-width="1"
-  />
+    stroke-opacity="0.3"
+    stroke-width="1"/>
 
-  <!-- rotating ring of icons -->
+  <!-- Rotating icons -->
   <g>
+
     <animateTransform
       attributeName="transform"
       type="rotate"
       from="0 170 170"
       to="360 170 170"
       dur="26s"
-      repeatCount="indefinite"
-    />
+      repeatCount="indefinite"/>
 
     <!-- React -->
     <g transform="rotate(0 170 170) translate(130 0)">
@@ -49,15 +48,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=react&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=react"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -71,15 +68,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=ts&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=ts"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -93,15 +88,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=python&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=python"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -115,15 +108,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=nodejs&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=nodejs"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -137,15 +128,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=docker&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=docker"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -159,15 +148,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=mongodb&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=mongodb"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -181,15 +168,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=git&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=git"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -203,15 +188,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=tailwind&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=tailwind"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -225,15 +208,13 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=fastapi&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=fastapi"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
@@ -247,17 +228,46 @@
           to="-360"
           dur="26s"
           repeatCount="indefinite"
-          additive="sum"
-        />
+          additive="sum"/>
         <image
-          href="https://skillicons.dev/icons?i=postgres&amp;theme=dark"
+          href="https://skillicons.dev/icons?i=postgres"
           x="-16"
           y="-16"
           width="32"
-          height="32"
-        />
+          height="32"/>
       </g>
     </g>
 
   </g>
+
+  <!-- Center label -->
+  <circle
+    cx="170"
+    cy="170"
+    r="38"
+    fill="#0b1020"
+    stroke="#00c6ff"
+    stroke-opacity="0.5"/>
+
+  <text
+    x="170"
+    y="166"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-family="monospace"
+    font-size="11"
+    font-weight="bold">
+    TECH
+  </text>
+
+  <text
+    x="170"
+    y="182"
+    text-anchor="middle"
+    fill="#00c6ff"
+    font-family="monospace"
+    font-size="8">
+    STACK
+  </text>
+
 </svg>
