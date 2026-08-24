@@ -19,56 +19,12 @@
 
 <br/>
 
+
 ## ⚡ Tech Stack
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,js,ts,py&theme=dark" />
-
-</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap,nodejs,express,fastapi&theme=dark" />
-
-</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,supabase,git,github,docker&theme=dark" />
-
-</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<img src="https://skillicons.dev/icons?i=vscode,postman,vercel,render,canva&theme=dark" />
-
-</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<img src="https://img.shields.io/badge/JWT-171717?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/OAuth-171717?style=for-the-badge&logo=auth0&logoColor=5B8CFF"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF4ECD,50:8A6BFF,100:00D4FF&height=3&width=850" width="85%"/>
+<img src="./assets/tech-stack.svg" width="850" alt="Nilaksh tech stack"/>
 
 </div>
 
