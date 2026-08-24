@@ -20,11 +20,11 @@ jobs:
         with:
           USERNAME: Nilaksh7
 
-      - name: Inject Custom Red & Black Theme
+      - name: Inject Custom Transparent & Red Theme
         run: |
-          # Replaces default dark gray background with pure black
-          sed -i 's/#151515/#000000/g' profile-summary-card-output/dark/*.svg
-          # Replaces default neon green with crimson red
+          # Makes the background completely transparent to match surroundings perfectly
+          sed -i 's/#151515/transparent/g' profile-summary-card-output/dark/*.svg
+          # Keeps your Miles Morales crimson red accents
           sed -i 's/#79ff97/#FF0033/g' profile-summary-card-output/dark/*.svg
 
       - name: Commit and push generated cards
