@@ -23,24 +23,54 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,js,ts,py,react,html,css,tailwind,bootstrap,nodejs,express,fastapi,mysql,mongodb,postgres,supabase,git,github,docker,vscode,postman,vercel,render,canva&theme=dark&perline=9" />
+<table>
+<tr>
+<td align="center">
 
-<br/><br/>
+<img src="https://skillicons.dev/icons?i=c,cpp,js,ts,py&theme=dark" />
 
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/OAuth-4A90D9?style=for-the-badge&logo=auth0&logoColor=white"/>
+</td>
+</tr>
 
-</div>
+<tr>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap,nodejs,express,fastapi&theme=dark" />
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,supabase,git,github,docker&theme=dark" />
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=vscode,postman,vercel,render,canva&theme=dark" />
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="https://img.shields.io/badge/JWT-171717?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/OAuth-171717?style=for-the-badge&logo=auth0&logoColor=5B8CFF"/>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF4ECD,50:8A6BFF,100:00D4FF&height=2&width=900&animation=fadeIn" width="85%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF4ECD,50:8A6BFF,100:00D4FF&height=3&width=850" width="85%"/>
 
 </div>
-
-<br/>
 
 ## 🌐 Let's Connect
 
