@@ -1,0 +1,166 @@
+<svg width="900" height="602" viewBox="0 0 900 602" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <rect x="1" y="1" width="898" height="600" rx="14" fill="#0b0f14" stroke="#232b36" stroke-width="1"/>
+  <text x="24" y="42" fill="#6b7686" font-size="11" letter-spacing="1.5">LANGUAGES</text><g>
+  <rect x="24" y="54" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="54" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="38" y="63" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="52" y="82" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">C</text>
+  <text x="76" y="82" fill="#c8cdd6" font-size="12.5">C</text>
+</g><g>
+  <rect x="174" y="54" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="54" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="188" y="63" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="202" y="82" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">C+</text>
+  <text x="226" y="82" fill="#c8cdd6" font-size="12.5">C++</text>
+</g><g>
+  <rect x="324" y="54" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="324" y="54" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="338" y="63" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="352" y="82" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">JS</text>
+  <text x="376" y="82" fill="#c8cdd6" font-size="12.5">JavaScript</text>
+</g><g>
+  <rect x="474" y="54" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="474" y="54" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="488" y="63" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="502" y="82" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">TS</text>
+  <text x="526" y="82" fill="#c8cdd6" font-size="12.5">TypeScript</text>
+</g><g>
+  <rect x="624" y="54" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="624" y="54" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="638" y="63" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="652" y="82" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">PY</text>
+  <text x="676" y="82" fill="#c8cdd6" font-size="12.5">Python</text>
+</g><text x="24" y="122" fill="#6b7686" font-size="11" letter-spacing="1.5">FRONTEND</text><g>
+  <rect x="24" y="134" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="134" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="38" y="143" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="52" y="162" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">Re</text>
+  <text x="76" y="162" fill="#c8cdd6" font-size="12.5">React</text>
+</g><g>
+  <rect x="174" y="134" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="134" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="188" y="143" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="202" y="162" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">HT</text>
+  <text x="226" y="162" fill="#c8cdd6" font-size="12.5">HTML</text>
+</g><g>
+  <rect x="324" y="134" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="324" y="134" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="338" y="143" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="352" y="162" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">CS</text>
+  <text x="376" y="162" fill="#c8cdd6" font-size="12.5">CSS</text>
+</g><g>
+  <rect x="474" y="134" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="474" y="134" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="488" y="143" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="502" y="162" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">TW</text>
+  <text x="526" y="162" fill="#c8cdd6" font-size="12.5">Tailwind CSS</text>
+</g><g>
+  <rect x="624" y="134" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="624" y="134" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="638" y="143" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="652" y="162" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">BS</text>
+  <text x="676" y="162" fill="#c8cdd6" font-size="12.5">Bootstrap</text>
+</g><text x="24" y="202" fill="#6b7686" font-size="11" letter-spacing="1.5">BACKEND</text><g>
+  <rect x="24" y="214" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="214" width="4" height="46" rx="2" fill="#ffb454" opacity="0.85"/>
+  <rect x="38" y="223" width="28" height="28" rx="7" fill="#ffb454" opacity="0.14"/>
+  <text x="52" y="242" fill="#ffb454" font-size="11.5" font-weight="700" text-anchor="middle">No</text>
+  <text x="76" y="242" fill="#c8cdd6" font-size="12.5">Node.js</text>
+</g><g>
+  <rect x="174" y="214" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="214" width="4" height="46" rx="2" fill="#ffb454" opacity="0.85"/>
+  <rect x="188" y="223" width="28" height="28" rx="7" fill="#ffb454" opacity="0.14"/>
+  <text x="202" y="242" fill="#ffb454" font-size="11.5" font-weight="700" text-anchor="middle">Ex</text>
+  <text x="226" y="242" fill="#c8cdd6" font-size="12.5">Express.js</text>
+</g><g>
+  <rect x="324" y="214" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="324" y="214" width="4" height="46" rx="2" fill="#ffb454" opacity="0.85"/>
+  <rect x="338" y="223" width="28" height="28" rx="7" fill="#ffb454" opacity="0.14"/>
+  <text x="352" y="242" fill="#ffb454" font-size="11.5" font-weight="700" text-anchor="middle">FA</text>
+  <text x="376" y="242" fill="#c8cdd6" font-size="12.5">FastAPI</text>
+</g><text x="24" y="282" fill="#6b7686" font-size="11" letter-spacing="1.5">DATABASE</text><g>
+  <rect x="24" y="294" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="294" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="38" y="303" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="52" y="322" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">My</text>
+  <text x="76" y="322" fill="#c8cdd6" font-size="12.5">MySQL</text>
+</g><g>
+  <rect x="174" y="294" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="294" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="188" y="303" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="202" y="322" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">Mo</text>
+  <text x="226" y="322" fill="#c8cdd6" font-size="12.5">MongoDB</text>
+</g><g>
+  <rect x="324" y="294" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="324" y="294" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="338" y="303" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="352" y="322" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">Pg</text>
+  <text x="376" y="322" fill="#c8cdd6" font-size="12.5">PostgreSQL</text>
+</g><g>
+  <rect x="474" y="294" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="474" y="294" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="488" y="303" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="502" y="322" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">Sb</text>
+  <text x="526" y="322" fill="#c8cdd6" font-size="12.5">Supabase</text>
+</g><text x="24" y="362" fill="#6b7686" font-size="11" letter-spacing="1.5">TOOLS</text><g>
+  <rect x="24" y="374" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="374" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="38" y="383" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="52" y="402" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">Gt</text>
+  <text x="76" y="402" fill="#c8cdd6" font-size="12.5">Git</text>
+</g><g>
+  <rect x="174" y="374" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="374" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="188" y="383" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="202" y="402" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">Gh</text>
+  <text x="226" y="402" fill="#c8cdd6" font-size="12.5">GitHub</text>
+</g><g>
+  <rect x="324" y="374" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="324" y="374" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="338" y="383" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="352" y="402" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">Dk</text>
+  <text x="376" y="402" fill="#c8cdd6" font-size="12.5">Docker</text>
+</g><g>
+  <rect x="474" y="374" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="474" y="374" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="488" y="383" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="502" y="402" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">VS</text>
+  <text x="526" y="402" fill="#c8cdd6" font-size="12.5">VS Code</text>
+</g><g>
+  <rect x="624" y="374" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="624" y="374" width="4" height="46" rx="2" fill="#3ddc97" opacity="0.85"/>
+  <rect x="638" y="383" width="28" height="28" rx="7" fill="#3ddc97" opacity="0.14"/>
+  <text x="652" y="402" fill="#3ddc97" font-size="11.5" font-weight="700" text-anchor="middle">Pm</text>
+  <text x="676" y="402" fill="#c8cdd6" font-size="12.5">Postman</text>
+</g><text x="24" y="442" fill="#6b7686" font-size="11" letter-spacing="1.5">PLATFORMS</text><g>
+  <rect x="24" y="454" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="454" width="4" height="46" rx="2" fill="#ffb454" opacity="0.85"/>
+  <rect x="38" y="463" width="28" height="28" rx="7" fill="#ffb454" opacity="0.14"/>
+  <text x="52" y="482" fill="#ffb454" font-size="11.5" font-weight="700" text-anchor="middle">Vc</text>
+  <text x="76" y="482" fill="#c8cdd6" font-size="12.5">Vercel</text>
+</g><g>
+  <rect x="174" y="454" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="454" width="4" height="46" rx="2" fill="#ffb454" opacity="0.85"/>
+  <rect x="188" y="463" width="28" height="28" rx="7" fill="#ffb454" opacity="0.14"/>
+  <text x="202" y="482" fill="#ffb454" font-size="11.5" font-weight="700" text-anchor="middle">Rd</text>
+  <text x="226" y="482" fill="#c8cdd6" font-size="12.5">Render</text>
+</g><g>
+  <rect x="324" y="454" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="324" y="454" width="4" height="46" rx="2" fill="#ffb454" opacity="0.85"/>
+  <rect x="338" y="463" width="28" height="28" rx="7" fill="#ffb454" opacity="0.14"/>
+  <text x="352" y="482" fill="#ffb454" font-size="11.5" font-weight="700" text-anchor="middle">Cv</text>
+  <text x="376" y="482" fill="#c8cdd6" font-size="12.5">Canva</text>
+</g><text x="24" y="522" fill="#6b7686" font-size="11" letter-spacing="1.5">AUTH</text><g>
+  <rect x="24" y="534" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="24" y="534" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="38" y="543" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="52" y="562" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">JW</text>
+  <text x="76" y="562" fill="#c8cdd6" font-size="12.5">JWT</text>
+</g><g>
+  <rect x="174" y="534" width="140" height="46" rx="9" fill="#11161d" stroke="#232b36" stroke-width="1"/>
+  <rect x="174" y="534" width="4" height="46" rx="2" fill="#5b8cff" opacity="0.85"/>
+  <rect x="188" y="543" width="28" height="28" rx="7" fill="#5b8cff" opacity="0.14"/>
+  <text x="202" y="562" fill="#5b8cff" font-size="11.5" font-weight="700" text-anchor="middle">OA</text>
+  <text x="226" y="562" fill="#c8cdd6" font-size="12.5">OAuth</text>
+</g>
+</svg>

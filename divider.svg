@@ -1,0 +1,19 @@
+<svg width="900" height="28" viewBox="0 0 900 28" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#232b36" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#232b36"/>
+      <stop offset="100%" stop-color="#232b36" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="divSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b8cff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5b8cff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5b8cff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="14" x2="900" y2="14" stroke="url(#divLine)" stroke-width="1"/>
+  <rect x="0" y="13" width="140" height="2" fill="url(#divSheen)">
+    <animate attributeName="x" values="-140;900" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="450" cy="14" r="2.5" fill="#3ddc97"/>
+</svg>

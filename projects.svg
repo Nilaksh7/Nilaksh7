@@ -1,0 +1,71 @@
+<svg width="900" height="330" viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <defs>
+    <linearGradient id="projGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b8cff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#5b8cff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- RepoMind card -->
+  <rect x="1" y="1" width="898" height="220" rx="14" fill="#0b0f14" stroke="#232b36" stroke-width="1"/>
+  <rect x="1" y="1" width="898" height="220" rx="14" fill="url(#projGlow)"/>
+
+  <text x="26" y="34" fill="#6b7686" font-size="11" letter-spacing="1.5">[ ai-repo-intel ]</text>
+  <text x="26" y="62" fill="#e5e9f0" font-size="22" font-weight="700">RepoMind</text>
+  <circle cx="176" cy="56" r="4" fill="#3ddc97">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="26" y="84" fill="#7b8494" font-size="13">AI-powered GitHub Repository Intelligence Platform</text>
+
+  <!-- tech pills -->
+  <g font-size="11.5">
+    <rect x="26" y="98" width="60" height="24" rx="12" fill="#11161d" stroke="#232b36"/>
+    <text x="56" y="114" fill="#5b8cff" text-anchor="middle">React</text>
+    <rect x="94" y="98" width="60" height="24" rx="12" fill="#11161d" stroke="#232b36"/>
+    <text x="124" y="114" fill="#5b8cff" text-anchor="middle">Node</text>
+    <rect x="162" y="98" width="72" height="24" rx="12" fill="#11161d" stroke="#232b36"/>
+    <text x="198" y="114" fill="#5b8cff" text-anchor="middle">FastAPI</text>
+    <rect x="242" y="98" width="90" height="24" rx="12" fill="#11161d" stroke="#232b36"/>
+    <text x="287" y="114" fill="#5b8cff" text-anchor="middle">PostgreSQL</text>
+    <rect x="340" y="98" width="76" height="24" rx="12" fill="#11161d" stroke="#232b36"/>
+    <text x="378" y="114" fill="#5b8cff" text-anchor="middle">pgvector</text>
+  </g>
+
+  <!-- mini architecture diagram: repo -> embeddings -> vector db -> answer -->
+  <g font-size="10.5">
+    <rect x="26" y="150" width="130" height="44" rx="8" fill="#11161d" stroke="#2a2f38"/>
+    <text x="91" y="168" fill="#e5e9f0" text-anchor="middle" font-size="11">GitHub Repo</text>
+    <text x="91" y="182" fill="#6b7686" text-anchor="middle">source</text>
+
+    <rect x="211" y="150" width="130" height="44" rx="8" fill="#11161d" stroke="#2a2f38"/>
+    <text x="276" y="168" fill="#e5e9f0" text-anchor="middle" font-size="11">Embeddings</text>
+    <text x="276" y="182" fill="#6b7686" text-anchor="middle">Gemini · Cohere</text>
+
+    <rect x="396" y="150" width="130" height="44" rx="8" fill="#11161d" stroke="#2a2f38"/>
+    <text x="461" y="168" fill="#e5e9f0" text-anchor="middle" font-size="11">pgvector store</text>
+    <text x="461" y="182" fill="#6b7686" text-anchor="middle">PostgreSQL</text>
+
+    <rect x="581" y="150" width="130" height="44" rx="8" fill="#11161d" stroke="#2a2f38"/>
+    <text x="646" y="168" fill="#e5e9f0" text-anchor="middle" font-size="11">AI Answer</text>
+    <text x="646" y="182" fill="#6b7686" text-anchor="middle">contextual reply</text>
+
+    <line x1="156" y1="172" x2="211" y2="172" stroke="#2f3846" stroke-width="1.5" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="341" y1="172" x2="396" y2="172" stroke="#2f3846" stroke-width="1.5" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+    </line>
+    <line x1="526" y1="172" x2="581" y2="172" stroke="#2f3846" stroke-width="1.5" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.2s" repeatCount="indefinite" begin="0.6s"/>
+    </line>
+  </g>
+
+  <text x="734" y="168" fill="#5b8cff" font-size="12.5" font-weight="600">[ GitHub ]</text>
+  <text x="734" y="188" fill="#3ddc97" font-size="12.5" font-weight="600">[ Live ]</text>
+
+  <!-- secondary: also building -->
+  <rect x="1" y="240" width="898" height="88" rx="14" fill="#0b0f14" stroke="#1c2430" stroke-width="1" stroke-dasharray="5 5"/>
+  <text x="26" y="266" fill="#6b7686" font-size="11" letter-spacing="1.5">ALSO BUILDING</text>
+  <text x="26" y="292" fill="#e5e9f0" font-size="16" font-weight="600">AI Code Mentor</text>
+  <text x="26" y="312" fill="#7b8494" font-size="12.5">An AI-assisted code review and learning companion — work in progress</text>
+</svg>

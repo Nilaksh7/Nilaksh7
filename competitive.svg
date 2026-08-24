@@ -1,0 +1,46 @@
+<svg width="900" height="190" viewBox="0 0 900 190" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <defs>
+    <linearGradient id="cpGlowKnight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb454" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffb454" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cpGlowPupil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3ddc97" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3ddc97" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="188" rx="14" fill="#0b0f14" stroke="#232b36" stroke-width="1"/>
+
+  <text x="24" y="30" fill="#6b7686" font-size="11" letter-spacing="1.5">RANKING CONSOLE</text>
+  <circle cx="868" cy="26" r="4" fill="#3ddc97">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="808" y="30" fill="#6b7686" font-size="10.5">SYNCED</text>
+  <line x1="24" y1="42" x2="876" y2="42" stroke="#1c2430" stroke-width="1"/>
+
+  <!-- LeetCode panel -->
+  <rect x="24" y="56" width="418" height="70" rx="10" fill="url(#cpGlowKnight)"/>
+  <rect x="24" y="56" width="418" height="70" rx="10" fill="none" stroke="#2a2f38" stroke-width="1"/>
+  <polygon points="52,74 66,84 66,98 52,108 38,98 38,84" fill="none" stroke="#ffb454" stroke-width="2"/>
+  <text x="52" y="94" fill="#ffb454" font-size="11" text-anchor="middle" font-weight="700">K</text>
+  <text x="88" y="86" fill="#e5e9f0" font-size="16" font-weight="600">Knight</text>
+  <text x="88" y="106" fill="#7b8494" font-size="12.5">LeetCode · leetcode.com/u/Nilakshbe7</text>
+  <text x="420" y="98" fill="#ffb454" font-size="11" text-anchor="end" letter-spacing="1">TOP TIER</text>
+
+  <!-- Codeforces panel -->
+  <rect x="458" y="56" width="418" height="70" rx="10" fill="url(#cpGlowPupil)"/>
+  <rect x="458" y="56" width="418" height="70" rx="10" fill="none" stroke="#2a2f38" stroke-width="1"/>
+  <circle cx="486" cy="91" r="15" fill="none" stroke="#3ddc97" stroke-width="2"/>
+  <text x="486" y="96" fill="#3ddc97" font-size="11" text-anchor="middle" font-weight="700">P</text>
+  <text x="522" y="86" fill="#e5e9f0" font-size="16" font-weight="600">Pupil</text>
+  <text x="522" y="106" fill="#7b8494" font-size="12.5">Codeforces · codeforces.com/profile/Nilaksh7</text>
+  <text x="854" y="98" fill="#3ddc97" font-size="11" text-anchor="end" letter-spacing="1">RATED</text>
+
+  <!-- achievement ticker -->
+  <line x1="24" y1="140" x2="876" y2="140" stroke="#1c2430" stroke-width="1"/>
+  <text x="24" y="160" fill="#5b8cff">▸</text>
+  <text x="40" y="160" fill="#c8cdd6" font-size="13">AIR 323 among 20,000+ participants</text>
+  <text x="470" y="160" fill="#5b8cff">▸</text>
+  <text x="486" y="160" fill="#c8cdd6" font-size="13">2nd Place — AlgoUniversity Graph Contest (500+ participants)</text>
+</svg>

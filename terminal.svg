@@ -1,0 +1,75 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <defs>
+    <filter id="termShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="termHeaderGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171d26"/>
+      <stop offset="100%" stop-color="#11161d"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#termShadow)">
+    <rect x="20" y="20" width="860" height="320" rx="12" fill="#0d1218" stroke="#232b36" stroke-width="1"/>
+    <path d="M20 32 a12 12 0 0 1 12-12 h824 a12 12 0 0 1 12 12 v30 h-848 z" fill="url(#termHeaderGrad)" stroke="#232b36" stroke-width="1"/>
+    <circle cx="44" cy="47" r="6" fill="#ff5f57"/>
+    <circle cx="64" cy="47" r="6" fill="#febc2e"/>
+    <circle cx="84" cy="47" r="6" fill="#28c840"/>
+    <text x="450" y="52" fill="#7b8494" font-size="12.5" text-anchor="middle">nilaksh@dev — zsh — 80×24</text>
+  </g>
+
+  <g font-size="16">
+    <!-- $ whoami -->
+    <g>
+      <text x="46" y="96" fill="#3ddc97">$</text>
+      <text x="62" y="96" fill="#e5e9f0">whoami</text>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="46" y="122" fill="#5b8cff" font-weight="600">Nilaksh</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.06;0.09;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- $ focus -->
+    <g>
+      <text x="46" y="160" fill="#3ddc97">$</text>
+      <text x="62" y="160" fill="#e5e9f0">focus</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.14;0.17;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="46" y="186" fill="#c8cdd6">Full-Stack • AI • DSA • CP</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2;0.23;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- $ rank -->
+    <g>
+      <text x="46" y="224" fill="#3ddc97">$</text>
+      <text x="62" y="224" fill="#e5e9f0">rank</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.33;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="46" y="250" fill="#ffb454">Knight</text>
+      <text x="108" y="250" fill="#7b8494"> @ LeetCode</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.41;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="46" y="272" fill="#3ddc97">Pupil</text>
+      <text x="92" y="272" fill="#7b8494"> @ Codeforces</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.44;0.47;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- $ status -->
+    <g>
+      <text x="46" y="310" fill="#3ddc97">$</text>
+      <text x="62" y="310" fill="#e5e9f0">status</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56;0.59;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="46" y="336" fill="#e5e9f0">Building something cool</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.64;0.67;0.94;1" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <rect x="298" y="324" width="9" height="16" fill="#e5e9f0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" dur="10s" repeatCount="indefinite" keyTimes="0;0.67;0.7;0.78;0.82;0.9;0.92;0.94"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <defs>
+    <linearGradient id="heroBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5b8cff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#232b36" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#3ddc97" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="heroSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b8cff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5b8cff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5b8cff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="148" rx="14" fill="#0b0f14"/>
+  <rect x="1" y="1" width="898" height="148" rx="14" fill="none" stroke="url(#heroBorder)" stroke-width="1.4"/>
+
+  <!-- scanning sheen sweeping along the top edge, the recurring signature motif -->
+  <rect x="0" y="0" width="120" height="2" fill="url(#heroSheen)">
+    <animate attributeName="x" values="-120;900" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- status dot -->
+  <circle cx="858" cy="30" r="4" fill="#3ddc97">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="796" y="34" fill="#6b7686" font-size="11" letter-spacing="0.5">ONLINE</text>
+
+  <g font-size="16">
+    <g>
+      <text x="34" y="46" fill="#3ddc97">&gt;</text>
+      <text x="52" y="46" fill="#7b8494">initializing profile...</text>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.92;1" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="34" y="74" fill="#3ddc97">&gt;</text>
+      <text x="52" y="74" fill="#e5e9f0">identity</text>
+      <text x="122" y="74" fill="#7b8494">— </text>
+      <text x="140" y="74" fill="#5b8cff" font-weight="600">Nilaksh</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.16;0.92;1" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="34" y="102" fill="#3ddc97">&gt;</text>
+      <text x="52" y="102" fill="#e5e9f0">focus</text>
+      <text x="106" y="102" fill="#7b8494">— </text>
+      <text x="124" y="102" fill="#e5e9f0">Full-Stack • AI • DSA • CP</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.32;0.92;1" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="34" y="130" fill="#3ddc97">&gt;</text>
+      <text x="52" y="130" fill="#e5e9f0">status</text>
+      <text x="114" y="130" fill="#7b8494">— </text>
+      <text x="132" y="130" fill="#ffb454" font-weight="600">building something new_</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.5;0.92;1" dur="7s" repeatCount="indefinite"/>
+      <rect x="382" y="118" width="8" height="14" fill="#ffb454">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;1;1;0" dur="7s" repeatCount="indefinite" keyTimes="0;0.46;0.5;0.6;0.65;0.75;0.8;0.9;1"/>
+      </rect>
+    </g>
+  </g>
+</svg>
