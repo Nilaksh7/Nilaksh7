@@ -11,7 +11,14 @@
 <!--              HERO ANIMATION                -->
 <!-- ========================================== -->
 <div align="center">
-  <img src="assets/portrait.svg" width="300" alt="Nilaksh, rendered as a dot matrix">
+  <div align="center">
+  <!-- Ultimate High-Definition Dotted & Scanning Profile Picture -->
+  <img src="./ultimate_animated_jacket.gif" width="260" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
+</div>
+  <img src="./sharp_animated_jacket.gif" width="260" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
+</div>
+<img src="./animated_jacket.gif" width="260" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
+</div>
   <!-- Desk/Tokyo GIF -->
   <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="300" alt="Desk Animation"/>
 </div>
