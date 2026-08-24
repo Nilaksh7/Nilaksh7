@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        # Fixed the username typo here!
-        uses: vn7n24f21120/github-profile-summary-cards@release
+        # Reverted back to the ORIGINAL, correct author name
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_CARD_TOKEN }}
         with:
