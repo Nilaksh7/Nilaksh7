@@ -52,27 +52,31 @@
 
 <div align="center">
 
-<!-- Languages -->
-<img src="https://skillicons.dev/icons?i=c,cpp,py,html,css,js,ts&perline=8" />
+<img src="https://raw.githubusercontent.com/Nilaksh7/Nilaksh7/main/tech-orbit.svg" width="340"/>
+
 <br/>
 
-<!-- Frontend -->
-<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap&perline=8" />
+<img src="https://img.shields.io/badge/languages-00c6ff?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0d0d0d" />
 <br/>
+<img src="https://skillicons.dev/icons?i=c,cpp,py,html,css,js,ts&perline=7" />
 
-<!-- Backend & Databases -->
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mysql,mongodb,postgres,supabase&perline=8" />
+<br/><br/>
+
+<img src="https://img.shields.io/badge/frontend-8A2BE2?style=for-the-badge&logo=react&logoColor=white&labelColor=0d0d0d" />
 <br/>
+<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap&perline=3" />
 
-<!-- DevOps & Tools -->
-<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman,vercel&perline=8" />
+<br/><br/>
+
+<img src="https://img.shields.io/badge/backend%20%26%20databases-00c6ff?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0d0d0d" />
 <br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mysql,mongodb,postgres,supabase&perline=7" />
 
-<!-- Additional Tools (shields.io) -->
-<img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-<img src="https://img.shields.io/badge/OAuth-000000?style=for-the-badge&logo=oauth&logoColor=white" alt="OAuth" />
+<br/><br/>
+
+<img src="https://img.shields.io/badge/devops%20%26%20tools-8A2BE2?style=for-the-badge&logo=docker&logoColor=white&labelColor=0d0d0d" />
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vite,npm,vscode,postman,vercel&perline=9" />
 
 </div>
 
