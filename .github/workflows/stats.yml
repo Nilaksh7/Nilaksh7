@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        # Reverted back to the ORIGINAL, correct author name
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_CARD_TOKEN }}
@@ -23,8 +22,12 @@ jobs:
 
       - name: Inject Custom Transparent & Red Theme
         run: |
-          sed -i 's/#151515/transparent/g' profile-summary-card-output/dark/*.svg
-          sed -i 's/#79ff97/#FF0033/g' profile-summary-card-output/dark/*.svg
+          # Forcefully strips both default gray AND our previous pure black into transparency
+          sed -i 's/fill="#151515"/fill="none"/g' profile-summary-card-output/dark/*.svg
+          sed -i 's/fill="#000000"/fill="none"/g' profile-summary-card-output/dark/*.svg
+          
+          # Injects the Miles Morales Crimson Red
+          sed -i 's/fill="#79ff97"/fill="#FF0033"/g' profile-summary-card-output/dark/*.svg
 
       - name: Commit and push generated cards
         run: |
