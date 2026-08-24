@@ -24,7 +24,12 @@
 
 <div align="center">
 
-<img src="./tech-stack.svg" width="850" alt="Nilaksh tech stack"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,js,ts,py,react,html,css,tailwind,bootstrap,nodejs,express,fastapi,mysql,mongodb,postgres,supabase,git,github,docker,vscode,postman,vercel,render,canva&theme=dark&perline=9" width="760"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/JWT-0d1117?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff"/>
+<img src="https://img.shields.io/badge/OAuth-0d1117?style=for-the-badge&logo=auth0&logoColor=6ea8fe"/>
 
 </div>
 
