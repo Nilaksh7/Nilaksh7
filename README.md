@@ -24,7 +24,7 @@
 
 <div align="center">
 
-<img src="./assets/tech-stack.svg" width="850" alt="Nilaksh tech stack"/>
+<img src="./tech-stack.svg" width="850" alt="Nilaksh tech stack"/>
 
 </div>
 
