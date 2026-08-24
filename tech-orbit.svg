@@ -1,0 +1,84 @@
+<svg width="340" height="340" viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00c6ff" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#8A2BE2" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- glowing core -->
+  <circle cx="170" cy="170" r="70" fill="url(#glow)">
+    <animate attributeName="r" values="65;78;65" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- faint orbit path -->
+  <circle cx="170" cy="170" r="130" fill="none" stroke="#8A2BE2" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- rotating ring of icons -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 170 170" to="360 170 170" dur="26s" repeatCount="indefinite"/>
+
+    <!-- each icon sits at angle i*36 on radius 130, and counter-rotates to stay upright -->
+    <g transform="rotate(0 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=react&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(36 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=ts&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(72 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=python&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(108 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=nodejs&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(144 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=docker&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(180 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=mongodb&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(216 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=git&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(252 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=tailwind&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(288 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=fastapi&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+    <g transform="rotate(324 170 170) translate(130 0)">
+      <g transform="translate(170 170)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite" additive="sum"/>
+        <image href="https://skillicons.dev/icons?i=postgres&theme=dark" x="-16" y="-16" width="32" height="32"/>
+      </g>
+    </g>
+  </g>
+</svg>
