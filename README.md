@@ -9,6 +9,11 @@
   </a>
 </div>
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Knight-LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="Knight LeetCode"/>
+  <img src="https://img.shields.io/badge/Pupil-Codeforces-000000?style=for-the-badge&logo=codeforces&logoColor=1F8ACB" alt="Pupil Codeforces"/>
+</div>
+
 <!-- TECH STACK CONSTELLATION -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=8A2BE2&center=true&vCenter=true&width=300&height=50&lines=>>+_Tech_Stack_;" alt="Tech Stack" />
@@ -54,7 +59,7 @@
   <a href="https://codeforces.com/profile/Nilaksh7">
     <img src="https://img.shields.io/badge/Codeforces-Pupil-000000?style=for-the-badge&logo=codeforces&logoColor=008000&color=000000" alt="Codeforces" />
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:ADD_MY_EMAIL_HERE">
     <img src="https://img.shields.io/badge/Email-Contact_Me-000000?style=for-the-badge&logo=gmail&logoColor=EA4335&color=000000" alt="Email" />
   </a>
 </div>
