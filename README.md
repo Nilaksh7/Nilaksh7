@@ -5,7 +5,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0033&height=250&section=header&text=Nilaksh&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=33&desc=Knight%20@%20LeetCode%20|%20Pupil%20@%20Codeforces%20|%20DSA%20|%20CP%20|%20AI%20|%20MERN%20Full-Stack&descAlignY=55&descSize=20&descAlign=50" width="100%"/>
 </div>
 
-<br/>
+
 
 <!-- ========================================== -->
 <!--              HERO ANIMATION                -->
@@ -13,14 +13,12 @@
 <div align="center">
   <div align="center">
   <!-- Ultimate High-Definition Dotted & Scanning Profile Picture -->
-  <img src="./ultimate_animated_jacket.gif" width="260" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
+  <img src="./ultimate_animated_Subject.gif" width="360" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
 </div>
-  <img src="./sharp_animated_jacket.gif" width="260" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
-</div>
-<img src="./animated_jacket.gif" width="260" style="border-radius: 50%; border: 2px solid #FF0033;" alt="Nilaksh Animated Profile"/>
-</div>
-  <!-- Desk/Tokyo GIF -->
+
+  <!-- Desk/Tokyo GIF 
   <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="300" alt="Desk Animation"/>
+  -->
 </div>
 
 <br/>
