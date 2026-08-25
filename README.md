@@ -79,8 +79,8 @@ and exploring AI-powered applications.
 <div align="center">
 <h2>📊 GitHub Stats</h2>
 
-<!-- Self-Hosted Professional 2D Contribution Calendar -->
-<img src="./metrics.svg" width="98%" alt="2D Contribution Calendar"/>
+<!-- Self-Hosted Professional Activity Line Graph -->
+<img src="./activity-graph.svg" width="98%" alt="Activity Line Graph"/>
 
 <br/><br/>
 <img src="./profile-summary-card-output/dark/3-stats.svg" width="48%"/>
