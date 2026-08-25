@@ -26,23 +26,33 @@ jobs:
           sed -i 's/fill="#000000"/fill="none"/g' profile-summary-card-output/dark/*.svg
           sed -i 's/fill="#79ff97"/fill="#FF0033"/g' profile-summary-card-output/dark/*.svg
 
-      - name: Generate 3D Contribution Graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: Nilaksh7
+      - name: Generate Professional 2D Metrics Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Kolkata
 
-      - name: Inject Crimson Theme into 3D Graph
+      - name: Inject Crimson Theme into 2D Calendar
         run: |
-          # Replaces default GitHub greens with a crimson red gradient
-          sed -i 's/#39d353/#FF0033/g' profile-3d-contrib/profile-night-green.svg
-          sed -i 's/#26a641/#BF0026/g' profile-3d-contrib/profile-night-green.svg
-          sed -i 's/#006d32/#800019/g' profile-3d-contrib/profile-night-green.svg
-          sed -i 's/#0e4429/#40000C/g' profile-3d-contrib/profile-night-green.svg
+          # Convert default light/dark greens to Crimson gradient (case-insensitive)
+          sed -i 's/#9be9a8/#40000C/gI' metrics.svg
+          sed -i 's/#40c463/#800019/gI' metrics.svg
+          sed -i 's/#30a14e/#BF0026/gI' metrics.svg
+          sed -i 's/#216e39/#FF0033/gI' metrics.svg
+          sed -i 's/#0e4429/#40000C/gI' metrics.svg
+          sed -i 's/#006d32/#800019/gI' metrics.svg
+          sed -i 's/#26a641/#BF0026/gI' metrics.svg
+          sed -i 's/#39d353/#FF0033/gI' metrics.svg
           
-          # Makes the background completely transparent
-          sed -i 's/fill="#0d1117"/fill="none"/g' profile-3d-contrib/profile-night-green.svg
-          sed -i 's/fill="#010409"/fill="none"/g' profile-3d-contrib/profile-night-green.svg
+          # Force background transparency to blend with GitHub Dark Mode
+          sed -i 's/fill="#ebedf0"/fill="none"/gI' metrics.svg
+          sed -i 's/fill="#161b22"/fill="none"/gI' metrics.svg
+          sed -i 's/fill="#0d1117"/fill="none"/gI' metrics.svg
+          sed -i 's/fill="#ffffff"/fill="none"/gI' metrics.svg
 
       - name: Commit and push generated files
         run: |
@@ -50,8 +60,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-summary-card-output/
           
-          # Automatically stages the new 3D graph folder
-          git add profile-3d-contrib/
+          # Automatically stages the new 2D graph
+          git add metrics.svg
           
-          git diff --staged --quiet || git commit -m "Update GitHub stats and 3D Graph [automated]"
+          git diff --staged --quiet || git commit -m "Update GitHub stats and 2D Calendar [automated]"
           git push
