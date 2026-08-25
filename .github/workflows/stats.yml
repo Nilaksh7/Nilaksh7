@@ -26,21 +26,32 @@ jobs:
           sed -i 's/fill="#000000"/fill="none"/g' profile-summary-card-output/dark/*.svg
           sed -i 's/fill="#79ff97"/fill="#FF0033"/g' profile-summary-card-output/dark/*.svg
 
-      - name: Generate Animated Crimson Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Nilaksh7
-          # Injects Pure Black background and Red/Crimson gradient for the dots
-          outputs: |
-            dist/github-snake.svg?color_snake=#FF0033&color_dots=#000000,#40000C,#800019,#BF0026,#FF0033
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Nilaksh7
+
+      - name: Inject Crimson Theme into 3D Graph
+        run: |
+          # Replaces default GitHub greens with a crimson red gradient
+          sed -i 's/#39d353/#FF0033/g' profile-3d-contrib/profile-night-green.svg
+          sed -i 's/#26a641/#BF0026/g' profile-3d-contrib/profile-night-green.svg
+          sed -i 's/#006d32/#800019/g' profile-3d-contrib/profile-night-green.svg
+          sed -i 's/#0e4429/#40000C/g' profile-3d-contrib/profile-night-green.svg
+          
+          # Makes the background completely transparent
+          sed -i 's/fill="#0d1117"/fill="none"/g' profile-3d-contrib/profile-night-green.svg
+          sed -i 's/fill="#010409"/fill="none"/g' profile-3d-contrib/profile-night-green.svg
 
       - name: Commit and push generated files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-summary-card-output/
-          git add dist/github-snake.svg
-          git diff --staged --quiet || git commit -m "Update GitHub stats and Snake [automated]"
+          
+          # Automatically stages the new 3D graph folder
+          git add profile-3d-contrib/
+          
+          git diff --staged --quiet || git commit -m "Update GitHub stats and 3D Graph [automated]"
           git push
