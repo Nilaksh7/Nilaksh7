@@ -80,7 +80,7 @@ and exploring AI-powered applications.
 <h2>📊 GitHub Stats</h2>
 
 <!-- Local, Self-Hosted Activity Graph -->
-<img src="./activity-graph.svg" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nilaksh7&theme=react-dark&bg_color=transparent&color=ffffff&line=FF0033&point=FF0033&area=true&area_color=FF0033&hide_border=true&v=1" width="98%"/>
 
 <br/><br/>
 <img src="./profile-summary-card-output/dark/3-stats.svg?v=1" width="48%"/>
