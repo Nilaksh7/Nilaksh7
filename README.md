@@ -78,9 +78,11 @@ and exploring AI-powered applications.
 <!-- ==================== GITHUB STATS ==================== -->
 <div align="center">
 <h2>📊 GitHub Stats</h2>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nilaksh7&theme=react-dark&bg_color=00000000&color=ffffff&line=FF0033&point=FF0033&area=true&area_color=FF0033&hide_border=true" width="98%"/>
+
+<!-- Local, Self-Hosted Activity Graph -->
+<img src="./activity-graph.svg" width="98%"/>
+
 <br/><br/>
-<!-- ADDED ?v=1 HERE TO BREAK THE GITHUB CACHE -->
 <img src="./profile-summary-card-output/dark/3-stats.svg?v=1" width="48%"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilaksh7&theme=dark&bg_color=00000000&title_color=FF0033&text_color=ffffff&chart_color=FF0033&border_color=FF0033" width="48%"/>
 </div>
