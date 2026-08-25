@@ -79,11 +79,11 @@ and exploring AI-powered applications.
 <div align="center">
 <h2>📊 GitHub Stats</h2>
 
-<!-- Local, Self-Hosted Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nilaksh7&theme=react-dark&bg_color=transparent&color=ffffff&line=FF0033&point=FF0033&area=true&area_color=FF0033&hide_border=true&v=1" width="98%"/>
+<!-- Self-Hosted Animated Crimson Snake -->
+<img src="./dist/github-snake.svg" width="98%" alt="Contribution Snake"/>
 
 <br/><br/>
-<img src="./profile-summary-card-output/dark/3-stats.svg?v=1" width="48%"/>
+<img src="./profile-summary-card-output/dark/3-stats.svg" width="48%"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilaksh7&theme=dark&bg_color=00000000&title_color=FF0033&text_color=ffffff&chart_color=FF0033&border_color=FF0033" width="48%"/>
 </div>
 <br/>
