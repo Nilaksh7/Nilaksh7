@@ -37,7 +37,7 @@ jobs:
             git checkout activity-graph.svg || rm activity-graph.svg
           fi
 
-     - name: Commit and push generated cards
+      - name: Commit and push generated cards
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
