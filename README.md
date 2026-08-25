@@ -79,8 +79,8 @@ and exploring AI-powered applications.
 <div align="center">
 <h2>📊 GitHub Stats</h2>
 
-<!-- Self-Hosted 3D Crimson Contribution Graph -->
-<img src="./profile-3d-contrib/profile-night-green.svg" width="98%" alt="3D Contribution Graph"/>
+<!-- Self-Hosted Professional 2D Contribution Calendar -->
+<img src="./metrics.svg" width="98%" alt="2D Contribution Calendar"/>
 
 <br/><br/>
 <img src="./profile-summary-card-output/dark/3-stats.svg" width="48%"/>
