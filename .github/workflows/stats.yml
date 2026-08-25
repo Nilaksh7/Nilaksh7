@@ -26,25 +26,21 @@ jobs:
           sed -i 's/fill="#000000"/fill="none"/g' profile-summary-card-output/dark/*.svg
           sed -i 's/fill="#79ff97"/fill="#FF0033"/g' profile-summary-card-output/dark/*.svg
 
-      - name: Fetch Live Activity Graph
-        run: |
-          # Downloads your graph directly from the API
-          curl -L -o activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=Nilaksh7&theme=react-dark&bg_color=transparent&color=ffffff&line=FF0033&point=FF0033&area=true&area_color=FF0033&hide_border=true"
-          
-          # Safety check: If the API is down and returns an error instead of an image, discard the broken download
-          if ! grep -q "<svg" activity-graph.svg; then
-            echo "API returned an error. Reverting to yesterday's graph."
-            git checkout activity-graph.svg || rm activity-graph.svg
-          fi
+      - name: Generate Animated Crimson Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Nilaksh7
+          # Injects Pure Black background and Red/Crimson gradient for the dots
+          outputs: |
+            dist/github-snake.svg?color_snake=#FF0033&color_dots=#000000,#40000C,#800019,#BF0026,#FF0033
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push generated cards
+      - name: Commit and push generated files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-summary-card-output/
-          
-          # Safely add the graph only if it successfully downloaded
-          git add activity-graph.svg || true
-          
-          git diff --staged --quiet || git commit -m "Update GitHub stats and Activity Graph [automated]"
+          git add dist/github-snake.svg
+          git diff --staged --quiet || git commit -m "Update GitHub stats and Snake [automated]"
           git push
