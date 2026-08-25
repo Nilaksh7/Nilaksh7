@@ -26,44 +26,19 @@ jobs:
           sed -i 's/fill="#000000"/fill="none"/g' profile-summary-card-output/dark/*.svg
           sed -i 's/fill="#79ff97"/fill="#FF0033"/g' profile-summary-card-output/dark/*.svg
 
-      - name: Generate Professional 2D Metrics Calendar
-        uses: lowlighter/metrics@latest
+      - name: Generate Professional Activity Line Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
-          filename: metrics.svg
+          username: Nilaksh7
+          options: 'theme=react-dark&bg_color=00000000&color=ffffff&line=FF0033&point=FF0033&area=true&area_color=FF0033&hide_border=true'
+          output_path: activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          config_timezone: Asia/Kolkata
-          # MAGIC LINE: Forces the action to leave the file so we can edit it
-          output_action: none 
-
-      - name: Inject Crimson Theme into 2D Calendar
-        run: |
-          # Convert default light/dark greens to Crimson gradient (case-insensitive)
-          sed -i 's/#9be9a8/#40000C/gI' metrics.svg
-          sed -i 's/#40c463/#800019/gI' metrics.svg
-          sed -i 's/#30a14e/#BF0026/gI' metrics.svg
-          sed -i 's/#216e39/#FF0033/gI' metrics.svg
-          sed -i 's/#0e4429/#40000C/gI' metrics.svg
-          sed -i 's/#006d32/#800019/gI' metrics.svg
-          sed -i 's/#26a641/#BF0026/gI' metrics.svg
-          sed -i 's/#39d353/#FF0033/gI' metrics.svg
-          
-          # Force background transparency to blend with GitHub Dark Mode
-          sed -i 's/fill="#ebedf0"/fill="none"/gI' metrics.svg
-          sed -i 's/fill="#161b22"/fill="none"/gI' metrics.svg
-          sed -i 's/fill="#0d1117"/fill="none"/gI' metrics.svg
-          sed -i 's/fill="#ffffff"/fill="none"/gI' metrics.svg
 
       - name: Commit and push generated files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-summary-card-output/
-          
-          # Automatically stages the newly edited 2D graph
-          git add metrics.svg
-          
-          git diff --staged --quiet || git commit -m "Update GitHub stats and 2D Calendar [automated]"
+          git add activity-graph.svg
+          git diff --staged --quiet || git commit -m "Update GitHub stats and Activity Graph [automated]"
           git push
