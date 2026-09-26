@@ -1,19 +1,16 @@
-<!-- ==================== HEADER ==================== -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0033&height=210&section=header&text=Nilaksh&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
 
 </div>
 
-<!-- ==================== INTRO ==================== -->
-
 <table>
 <tr>
 <td width="42%" align="center">
 
 <img src="./ultimate_animated_Subject.gif"
-     width="300"
-     alt="Nilaksh"/>
+     width="300"
+     alt="Nilaksh"/>
 
 </td>
 
@@ -53,8 +50,6 @@ and exploring AI-powered applications.
 
 ---
 
-<!-- ==================== TECH STACK ==================== -->
-
 <div align="center">
 
 <h2>⚡ Technologies & Tools</h2>
@@ -75,11 +70,9 @@ and exploring AI-powered applications.
 ---
 
 
-<!-- ==================== GITHUB STATS ==================== -->
 <div align="center">
 <h2>📊 GitHub Stats</h2>
 
-<!-- Self-Hosted Professional Activity Line Graph -->
 <img src="./activity-graph.svg" width="98%" alt="Activity Line Graph"/>
 
 <br/><br/>
@@ -90,8 +83,6 @@ and exploring AI-powered applications.
 
 ---
 
-
-<!-- ==================== CURRENT FOCUS ==================== -->
 
 <div align="center">
 
@@ -104,8 +95,6 @@ and exploring AI-powered applications.
 <br/>
 
 ---
-
-<!-- ==================== CONNECT ==================== -->
 
 <div align="center">
 
@@ -144,5 +133,3 @@ and exploring AI-powered applications.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:000000&height=100&section=footer&animation=twinkling" width="100%"/>
 
 </div>
-
-give ready to paste code
