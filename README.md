@@ -1,11 +1,12 @@
-<!-- ==================== HEADER ==================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0033&height=210&section=header&text=Nilaksh&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0033&height=210&section=header&text=Nilaksh&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=35">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:FF0033&height=210&section=header&text=Nilaksh&fontSize=65&fontColor=000000&animation=twinkling&fontAlignY=35">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0033&height=210&section=header&text=Nilaksh&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%" alt="Header"/>
+</picture>
 
 </div>
-
-<!-- ==================== INTRO ==================== -->
 
 <table>
 <tr>
@@ -53,8 +54,6 @@ and exploring AI-powered applications.
 
 ---
 
-<!-- ==================== TECH STACK ==================== -->
-
 <div align="center">
 
 <h2>⚡ Technologies & Tools</h2>
@@ -74,24 +73,29 @@ and exploring AI-powered applications.
 
 ---
 
-
-<!-- ==================== GITHUB STATS ==================== -->
 <div align="center">
 <h2>📊 GitHub Stats</h2>
 
-<!-- Self-Hosted Professional Activity Line Graph -->
 <img src="./activity-graph.svg" width="98%" alt="Activity Line Graph"/>
 
 <br/><br/>
-<img src="./profile-summary-card-output/dark/3-stats.svg" width="48%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilaksh7&theme=dark&bg_color=00000000&title_color=FF0033&text_color=ffffff&chart_color=FF0033&border_color=FF0033" width="48%"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/dark/3-stats.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/light/3-stats.svg">
+  <img src="./profile-summary-card-output/dark/3-stats.svg" width="48%" alt="Stats"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilaksh7&theme=dark&bg_color=00000000&title_color=FF0033&text_color=ffffff&chart_color=FF0033&border_color=FF0033">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilaksh7&theme=default&title_color=FF0033&chart_color=FF0033">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilaksh7&theme=dark&bg_color=00000000&title_color=FF0033&text_color=ffffff&chart_color=FF0033&border_color=FF0033" width="48%" alt="Most Commit Language"/>
+</picture>
+
 </div>
 <br/>
 
 ---
-
-
-<!-- ==================== CURRENT FOCUS ==================== -->
 
 <div align="center">
 
@@ -104,8 +108,6 @@ and exploring AI-powered applications.
 <br/>
 
 ---
-
-<!-- ==================== CONNECT ==================== -->
 
 <div align="center">
 
@@ -141,6 +143,10 @@ and exploring AI-powered applications.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:000000&height=100&section=footer&animation=twinkling" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:000000&height=100&section=footer&animation=twinkling">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:ffffff&height=100&section=footer&animation=twinkling">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:000000&height=100&section=footer&animation=twinkling" width="100%" alt="Footer"/>
+</picture>
 
 </div>
