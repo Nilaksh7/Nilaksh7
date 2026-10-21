@@ -32,8 +32,8 @@ and exploring AI-powered applications.
 </p>
 
 <p>
-🏆 <b>Knight (Rating: 1850+)</b> @ LeetCode<br/>
-⚡ <b>Pupil (Rating: 1200+)</b> @ Codeforces
+🏆 <b>Knight (Rating: 1900+)</b> @ LeetCode<br/>
+⚡ <b>Pupil (Rating: 1350+)</b> @ Codeforces
 </p>
 
 <p>
